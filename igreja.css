@@ -12,4 +12,81 @@
         font-size: 2rem;
       }
 
+
+      .cultos-container {
+        max-width: 1100px;
+        margin: 120px auto 0;
+        padding: 40px 30px; /* espaço interno */
+        background-image: url('igreja.jfif'); /* imagem de fundo */
+        background-size: cover; /* cobre toda a div */
+        background-position: center; /* centraliza a imagem */
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        color: #fff; /* deixa o texto branco para melhor contraste */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* sombra leve */
+      }
+      .cultos-container {
+        max-width: 1200px;
+        margin: 120px auto 0;
+        padding: 0 20px;
+        
+      }
+      
+      .h2-cultos {
+        text-align: center;
+        font-weight: bold;
+        font-size: 36px;
+        color: #222;
+        margin-bottom: 40px;
+        
+      }
+      
+      .cultos {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+        flex-wrap: wrap; /* se tela for pequena, empilha */
+      }
+      
+      .img-culto {
+        width: 100%;
+        max-width: 900px;
+        border-radius: 5px;
+        object-fit: cover;
+        margin-top: 50px;
+        margin-left: -200px;
+      }
+      
+      .lista-dias {
+        flex: 1;
+        min-width: 280px;
+      }
+      
+      .dia {
+        margin-bottom: 20px;
+      }
+      
+      .data {
+        background-color: #f8d2b8;
+        text-align: center;
+        padding: 1px;
+        font-weight: bold;
+        border-radius: 5px 5px 0 0;
+      }
+      
+      .evento a {
+        display: block;
+        padding: 10px 12px;
+        background-color: #fff;
+        border: 1px solid #f8d2b8;
+        border-top: none;
+        text-decoration: none;
+        color: black;
+        border-radius: 0 0 5px 5px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .evento a:hover {
+        background-color: #ffe0cb;
+      }
       
