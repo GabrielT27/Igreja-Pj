@@ -75,6 +75,7 @@
   font-weight: bold;
   border-radius: 5px 5px 0 0;
   color: #222;
+  
 }
 
 .evento a {
@@ -91,6 +92,10 @@
 
 .evento a:hover {
   background-color: #ffe0cb;
+}
+
+.card {
+  margin-left: 20px;
 }
 
 /* Responsivo para telas menores */
