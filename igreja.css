@@ -98,6 +98,32 @@
   margin-left: 20px;
 }
 
+.versiculo {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsivo para telas menores */
 @media (max-width: 768px) {
   .cultos {
