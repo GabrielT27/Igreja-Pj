@@ -120,6 +120,12 @@
             color: #aaa;
         }
 
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: #fff !important;
+  background-color: #6e0101 !important;
+  border-color: #6e0101 !important;
+}
 
 
 
