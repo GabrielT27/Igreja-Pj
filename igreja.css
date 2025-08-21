@@ -103,6 +103,12 @@
   text-align: center;
 }
 
+.mensagem {
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
     footer {
             background-color: #535353;
             color: white;
