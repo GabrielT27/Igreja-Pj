@@ -5,18 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato - Igreja</title>
   <link rel="stylesheet" href="ctt.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
   <header>
+    <div class="" data-aos="fade-down">
     <h1>Contato e Localização</h1>
     <p>Estamos sempre de portas abertas para acolher você!</p>
   </header>
 
   <!-- ÍCONES DE REDES SOCIAIS -->
-  <div class="social-icons">
+  <div class="social-icons" data-aos="fade-down">
     <a href="https://facebook.com/suaPaginaDaIgreja" target="_blank" class="icon facebook" title="Facebook">
       <i class="fa-brands fa-facebook-f"></i>
     </a>
@@ -38,7 +40,7 @@
   <div class="container contato-page">
 
     <!-- Formulário -->
-    <section class="card contato">
+    <section class="card contato" data-aos="fade-down">
       <h2>Fale Conosco</h2>
       <form action="#" method="post">
         <label for="nome">Nome</label>
@@ -55,23 +57,27 @@
     </section>
 
     <!-- Localização -->
-    <section class="card localizacao">
-      <h2>Onde Estamos</h2>
-      <p><strong>Paróquia Jesus Cristo Bom Pastor</strong><br>
+    <section class="card localizacao" date-aos="fade-down">
+      <h2 data-aos="fade-down">Onde Estamos</h2>
+      <p data-aos="fade-down"><strong>Paróquia Jesus Cristo Bom Pastor</strong><br>
       Rua José Joaquim Duarte do Páteo, 222 - Jardim do Lago<br>
       Limeira - Estado</p>
 
-      <a href="https://www.google.com/maps/place/Par%C3%B3quia+Jesus+Cristo+Bom+Pastor/@-22.6057505,-47.4204884,16.75z/data=!4m6!3m5!1s0x94c881bd4f733427:0x2a39f66153f1b666!8m2!3d-22.6052007!4d-47.4205656!16s%2Fg%2F1tk6w_x9?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D">
-        <img src="Captura de tela 2025-09-23 135416.png" alt="" style="width: 100%; border-radius: 15px;">
+      <a href= "https://www.google.com/maps/place/Par%C3%B3quia+Jesus+Cristo+Bom+Pastor/@-22.6057505,-47.4204884,16.75z/data=!4m6!3m5!1s0x94c881bd4f733427:0x2a39f66153f1b666!8m2!3d-22.6052007!4d-47.4205656!16s%2Fg%2F1tk6w_x9?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D">
+        <img src="Captura de tela 2025-09-23 135416.png" alt="" data-aos="fade-down" style="width: 100%; border-radius: 15px;">
       </a>
 
-      <iframe 
-        src="" 
-        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
-      </iframe>
-    </section>
+      
 
   </div>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200, // duração da animação em ms
+ });
+</script>
 
   <footer>
     <p>&copy; 2025 - Paróquia Jesus Cristo Bom Pastor</p>
