@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Notícias - Igreja</title>
   <link rel="stylesheet" href="noticias.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header class="" data-aos="fade-down">
     <h1>Notícias da Nossa Igreja</h1>
     <p>Fique por dentro das últimas novidades e eventos</p>
   </header>
 
-  <div class="container">
+  <div class="container" data-aos="fade-down">
 
     <div class="noticia">
       <h2>Missa Especial de Nossa Padroeira</h2>
@@ -36,6 +37,13 @@
     </div>
 
   </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200, // duração da animação em ms
+ });
+</script>
 
   <footer>
     <p>&copy; 2025 - Paróquia Jesus Cristo Bom Pastor</p>
